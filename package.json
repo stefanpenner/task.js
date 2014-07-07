@@ -1,0 +1,44 @@
+{
+  "name": "task.js",
+  "version": "1.0.0",
+  "description": "Beautiful concurrency for JavaScript",
+  "main": "dist/task.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "broccoli-closure-compiler": "^0.2.0",
+    "broccoli-compile-modules": "eventualbuddha/broccoli-compile-modules",
+    "broccoli-file-mover": "^0.4.0",
+    "broccoli-jshint": "^0.5.1",
+    "broccoli-merge-trees": "^0.1.4",
+    "broccoli-static-compiler": "^0.1.4",
+    "ember-cli": "0.0.39",
+    "es6-module-transpiler-amd-formatter": "0.0.1",
+    "express": "^4.5.0",
+    "jshint": "~0.9.1",
+    "mocha": "^1.20.1",
+    "testem": "^0.6.16"
+  },
+  "scripts": {
+    "test": "testem ci",
+    "test-server": "testem",
+    "lint": "jshint lib",
+    "prepublish": "ember build",
+    "build-all": "ember build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla/task.js.git",
+    "dist": "git@github.com:components/task.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mozilla/task.js/issues"
+  },
+  "keywords": [
+    "promises",
+    "futures"
+  ],
+  "author": "Dave Hermanator",
+  "license": "MIT"
+}

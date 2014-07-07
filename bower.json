@@ -1,0 +1,23 @@
+{
+  "name": "task.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mozilla/task.js",
+  "authors": [
+    "Dave Hermanitor"
+  ],
+  "description": "Beautiful concurrency for JavaScript"
+  "main": "dist/task.js",
+  "keywords": [
+    "promise", "coroutine", "generators", "spawn"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor",
+    "lib"
+  ]
+}

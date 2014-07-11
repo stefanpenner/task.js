@@ -24,8 +24,8 @@
     "test": "testem ci",
     "test-server": "testem",
     "lint": "jshint lib",
-    "prepublish": "ember build",
-    "build-all": "ember build"
+    "prepublish": "npm build",
+    "build": "ember build"
   },
   "repository": {
     "type": "git",
